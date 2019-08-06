@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.026 27.026">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #47c2f7;
+      }
+
+      .cls-2 {
+        fill: #47c2f7;
+      }
+    </style>
+  </defs>
+  <g id="radio_item" data-name="radio item" transform="translate(-303.487 -365.312)">
+    <path id="Path_949" data-name="Path 949" class="cls-1" d="M9464,2104.682v27.026" transform="translate(-9147 -1739.37)"/>
+    <path id="Path_950" data-name="Path 950" class="cls-1" d="M0,0V27.026" transform="translate(330.513 378.824) rotate(90)"/>
+    <circle id="Ellipse_22" data-name="Ellipse 22" class="cls-2" cx="5" cy="5" r="5" transform="translate(312 374)"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64.307" height="102.163" viewBox="0 0 64.307 102.163">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbdff"/>
+      <stop offset="0.1" stop-color="#f5bfff"/>
+      <stop offset="0.26" stop-color="#dbc4ff"/>
+      <stop offset="0.47" stop-color="#b0ccff"/>
+      <stop offset="0.72" stop-color="#75d8ff"/>
+      <stop offset="0.99" stop-color="#2ae6ff"/>
+      <stop offset="1" stop-color="#29e6ff"/>
+    </linearGradient>
+  </defs>
+  <path id="audiovisual_icon" data-name="audiovisual icon" d="M32.154,0h8.038V102.163H32.154ZM16.077,12.77h8.038V89.392H16.077ZM48.23,25.541h8.038V76.622H48.23ZM0,38.311H8.038V63.852H0Zm64.307,63.852" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 235.471 303.756">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #63c9f3;
+        stroke-width: 2px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1.042" y1="0.075" x2="-1.817" y2="2.815" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe8ff"/>
+      <stop offset="0.06" stop-color="#e3e8ff"/>
+      <stop offset="0.19" stop-color="#b2e7ff"/>
+      <stop offset="0.32" stop-color="#88e7ff"/>
+      <stop offset="0.45" stop-color="#66e7ff"/>
+      <stop offset="0.58" stop-color="#4be6ff"/>
+      <stop offset="0.71" stop-color="#38e6ff"/>
+      <stop offset="0.85" stop-color="#2de6ff"/>
+      <stop offset="1" stop-color="#29e6ff"/>
+    </linearGradient>
+  </defs>
+  <g id="tree_behind_globe" data-name="tree behind globe" transform="translate(-267.497 -770.102)">
+    <path id="Path_740" data-name="Path 740" class="cls-1" d="M6.35,109.186C33.221,67.461,26.574,42.3,74.444,35.225s65.149,0,82.249-21.473,53.059-18.8,32.891,15.107-42.749,36.663-43.684,53.8,32.921,42.745,10.793,58.3-52.536-1.88-82.249,0S-20.52,150.91,6.35,109.186Z" transform="matrix(0.602, -0.799, 0.799, 0.602, 267.497, 985.103)"/>
+    <path id="Path_741" data-name="Path 741" class="cls-2" d="M2137.806,1003.407s-16.672-63.272,0-142.6-5.408-89.8-5.408-89.8" transform="translate(-1744.711 0)"/>
+    <path id="Path_742" data-name="Path 742" class="cls-2" d="M2131.675,968.2s41.223,12.046,69.644-21.158" transform="translate(-1744.74 -3.947)"/>
+    <path id="Path_743" data-name="Path 743" class="cls-2" d="M2129.87,938.471s-13.5,6.778-22.926-10.824" transform="translate(-1744.185 -3.512)"/>
+  </g>
+</svg>

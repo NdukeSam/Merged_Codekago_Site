@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137.54" height="31.649" viewBox="0 0 137.54 31.649">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd5ff"/>
+      <stop offset="0.06" stop-color="#e3d7ff"/>
+      <stop offset="0.19" stop-color="#b2dbff"/>
+      <stop offset="0.32" stop-color="#88deff"/>
+      <stop offset="0.45" stop-color="#66e1ff"/>
+      <stop offset="0.58" stop-color="#4be3ff"/>
+      <stop offset="0.71" stop-color="#38e5ff"/>
+      <stop offset="0.85" stop-color="#2de6ff"/>
+      <stop offset="1" stop-color="#29e6ff"/>
+    </linearGradient>
+  </defs>
+  <path id="cloud_2" data-name="cloud 2" d="M709.65,380.708s17.987-.843,18.549-5.9-6.464-12.085,0-11.242,10.961,7.8,16.582,8.532,11.242,2.445,14.333-12.6,16.75-9.983,24.816-4.643,11.438,12.664,20.713,10.264,14.614,2.934,11.8,3.935,11.719,5.2,21.314,3.7,18.965,6.931-10.264,7.965S709.65,380.708,709.65,380.708Z" transform="translate(-709.65 -349.527)" opacity="0.602" fill="url(#linear-gradient)"/>
+</svg>

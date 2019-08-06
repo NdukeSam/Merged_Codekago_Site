@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="360" viewBox="0 0 360 360">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbdff"/>
+      <stop offset="0.1" stop-color="#f5bfff"/>
+      <stop offset="0.26" stop-color="#dbc4ff"/>
+      <stop offset="0.47" stop-color="#b0ccff"/>
+      <stop offset="0.72" stop-color="#75d8ff"/>
+      <stop offset="0.99" stop-color="#2ae6ff"/>
+      <stop offset="1" stop-color="#29e6ff"/>
+    </linearGradient>
+  </defs>
+  <g id="web_1" data-name="web 1" transform="translate(-435 -102)">
+    <g id="Ellipse_49" data-name="Ellipse 49" transform="translate(435 102)" fill="none" stroke="#d5dfeb" stroke-width="1">
+      <circle cx="180" cy="180" r="180" stroke="none"/>
+      <circle cx="180" cy="180" r="179.5" fill="none"/>
+    </g>
+    <circle id="Ellipse_52" data-name="Ellipse 52" cx="6" cy="6" r="6" transform="translate(479 152)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_54" data-name="Ellipse 54" cx="5" cy="5" r="5" transform="translate(686 114)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

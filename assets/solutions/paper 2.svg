@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94.587" height="45.93" viewBox="0 0 94.587 45.93">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb9ff"/>
+      <stop offset="0.1" stop-color="#f5bbff"/>
+      <stop offset="0.26" stop-color="#dbc1ff"/>
+      <stop offset="0.47" stop-color="#b0caff"/>
+      <stop offset="0.72" stop-color="#75d6ff"/>
+      <stop offset="0.99" stop-color="#2ae6ff"/>
+      <stop offset="1" stop-color="#29e6ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="paper_2" data-name="paper 2" transform="translate(-277.648 -230.61)">
+    <path id="Path_1220" data-name="Path 1220" d="M1474.6,130.51s-20.682,39.5-58.05,34.162l-33.362-10.147s37.031.829,49.539-18.777,8.511-15.108,8.511-15.108Z" transform="translate(-1102.367 110.416)" fill="#45ffbc"/>
+    <path id="Path_1221" data-name="Path 1221" d="M1470.352,131.79s-20.682,39.5-58.05,34.162L1378.94,155.8s37.031.829,49.539-18.777,8.51-15.108,8.51-15.108Z" transform="translate(-1101.292 110.092)" fill="#fff"/>
+    <path id="Path_1225" data-name="Path 1225" d="M1461.391,129.02l19.778,6.149-1.823,2.324-19.786-6.478Z" transform="translate(-1121.673 108.185)" fill="url(#linear-gradient)"/>
+    <path id="Path_1226" data-name="Path 1226" d="M1456.549,134.69l15.8,5.014-2,1.831-15.459-4.819Z" transform="translate(-1120.493 106.751)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_1227" data-name="Path 1227" d="M1443.523,145.43l23.656,6.852s-8.839,10.214-13.449,11.955l-22.79-7.973S1441.281,152.282,1443.523,145.43Z" transform="translate(-1114.438 104.036)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

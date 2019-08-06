@@ -1,0 +1,823 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-moz-scrollbar {
+  display: none;
+}
+
+::-ms-overflow-style {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body#blog2-body {
+  background-image: -webkit-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(240, 247, 255, 1) 100%);
+  background-image: -moz-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(240, 247, 255, 1) 100%);
+  background-image: -o-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(240, 247, 255, 1) 100%);
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(240, 247, 255, 1) 100%);
+  overflow-x: hidden;
+}
+
+.cover {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar-home {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.codekago-logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 2;
+}
+
+._p {
+  line-height: 18px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  text-transform: uppercase;
+  font-family: 'Titillium';
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgba(85, 86, 85, 1);
+}
+
+#blog2-body nav {
+  margin-bottom: 150px;
+}
+
+.menu {
+  height: 38px;
+  position: relative;
+  top: -15px;
+  cursor: pointer;
+}
+
+#blog2-body input {
+  height: 38px;
+  width: 100%;
+  border: 1px solid rgba(32, 165, 222, 1);
+  border-radius: 19px;
+  font-family: 'TitilliumLt';
+  outline: none;
+  font-size: 14px;
+  color: rgba(32, 165, 222, 1);
+  padding-left: 20px;
+  margin: 0 auto;
+  position: relative;
+  padding-right: 45px;
+}
+
+.input-div input::placeholder {
+  color: rgba(32, 165, 222, 1) !important;
+  text-align: center;
+
+}
+
+.input-div {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.input-div img {
+  margin-top: 7px;
+  z-index: 99;
+  position: absolute;
+  right: 9px;
+}
+
+#blog2-body h3 {
+  font-family: 'Titillium';
+  font-size: 29px;
+  font-weight: bold;
+  color: rgba(83, 100, 119, 1);
+  text-align: left;
+  line-height: 30px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+#blog2-body h2 {
+  font-family: 'TitilliumL';
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(32, 165, 222, 1);
+  text-align: left;
+  line-height: 20px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.blog-topic {
+  font-family: 'TitilliumL';
+  font-size: 24px;
+  font-weight: 300;
+  color: rgba(83, 100, 119, 1);
+  text-align: left;
+  line-height: 30px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.blog-title {
+  font-family: 'TitilliumLt';
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(132, 142, 154, 1);
+  text-align: left;
+  line-height: 20px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.bg-img {
+  background: url('/assets/blog/bitcoin-3x copy.png')no-repeat;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile-xspace {
+  margin-top: -63px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(132, 142, 154, 1);
+  font-family: 'TitilliumLt';
+  font-size: 12px;
+}
+
+a:hover {
+  color: rgba(132, 142, 154, 1);
+
+}
+
+.arrowed {
+  height: 16px;
+  width: 47px;
+  transform: rotate(180deg);
+  margin-top: -16px;
+}
+
+.anchor-flex {
+  display: flex;
+  align-items: center;
+}
+
+.recent {
+  font-family: 'Titillium';
+  font-size: 14px;
+  font-weight: 900;
+  color: rgba(132, 142, 154, 1);
+  text-align: left;
+  line-height: 21px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(132, 142, 154, 0.37);
+  padding-bottom: 10px;
+}
+
+.blog-img {
+  background: url("/assets/blog/Marek-Zmyslowski-Co-Founder-Jumia-Travel-3x.png") no-repeat;
+  height: 175px;
+  background-size: cover;
+  background-position: center;
+}
+
+.blogged-img {
+  width: 100%;
+  height: 196px;
+  object-fit: cover;
+  image-rendering: pixelated;
+  border-radius: 8px;
+  margin-left: -10px;
+}
+
+.category {
+  font-family: 'TitilliumL';
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(32, 165, 222, 1);
+  text-align: left;
+  line-height: 20px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin-top: -42px;
+  margin-bottom: 0;
+}
+
+.blog-first-title {
+  font-family: 'TitilliumLt';
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(83, 100, 119, 1);
+  text-align: left;
+  line-height: 20px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.blog-first-poster {
+  font-family: 'Titillium';
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(132, 142, 154, 1);
+  text-align: left;
+  line-height: 20px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.blog-date {
+  font-family: 'TitilliumL';
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(196, 201, 207, 1);
+  text-align: left;
+  line-height: 20px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin: 0;
+}
+
+.video-display {
+  height: 380px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 30px;
+  padding: 40px 20px;
+}
+
+.topTrend {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.brief-video-title {
+  font-family: 'TitilliumL';
+  font-size: 24px;
+  font-weight: 300;
+  color: rgba(83, 100, 119, 1);
+  text-align: left;
+  line-height: 30px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.sectionTwo {
+  padding-top: 90px;
+}
+
+.blog-name {
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.mobile-poster-avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+
+
+.mobile-foot {
+  background: url("/assets/footer clipped mobie.svg") no-repeat;
+  height: 440px;
+  background-size: cover;
+  padding-top: 215px;
+}
+
+.mobile-text {
+  font-family: 'Titillium';
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgba(83, 100, 119, 1);
+  text-align: left;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin-top: unset;
+}
+
+.mobile-campaign-brief {
+  /* white-space: pre-line; */
+  font-family: 'TitilliumL';
+  font-size: .8rem;
+  font-weight: 300;
+  color: rgba(132, 142, 154, 1);
+  text-align: left;
+  line-height: 2rem;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.mobile-input {
+  position: relative;
+  height: 38px;
+  width: 284px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 19px;
+  outline: none;
+  border: none;
+  font-family: 'TitilliumLt';
+  padding-left: 20px;
+  margin-top: 10px;
+  padding-right: 60px;
+  color: rgba(132, 142, 154, 1);
+  outline: none;
+}
+
+input::placeholder {
+  color: rgba(132, 142, 154, 0.21);
+  opacity: 1;
+}
+
+.mobile-see-mored {
+  position: relative;
+  height: 38px;
+  width: 110px;
+  background-color: rgba(32, 165, 222, 1);
+  border-radius: 19px;
+  box-shadow: 0px 10px 20px 0px rgba(71, 194, 247, 0.36);
+  outline: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: .8rem;
+  border: none;
+  font-family: 'Titillium';
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: -50px;
+  background-image: none;
+}
+
+.mobile-see-mored:focus {
+  outline: none;
+}
+
+.mobile-arrow-head {
+  height: 16px;
+  position: relative;
+
+}
+
+.mobile-see-more-small {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: rgba(71, 194, 247, 1);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 6px;
+}
+
+.mobile-see-more {
+  position: relative;
+  height: 38px;
+  width: 110px;
+  background-color: rgba(32, 165, 222, 1);
+  border-radius: 19px;
+  box-shadow: 0px 10px 20px 0px rgba(71, 194, 247, 0.36);
+  outline: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: .8rem;
+  border: none;
+  font-family: 'Titillium';
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: -50px;
+  background-image: none;
+}
+
+.mobile-see-more:focus {
+  outline: none;
+}
+
+.mobile-arrow-head {
+  height: 16px;
+  position: relative;
+
+}
+
+.mobile-input-div {
+  display: flex;
+  margin-top: 40px;
+}
+
+.footer {
+  background-color: rgba(219, 236, 255, 1);
+  width: 100%;
+  position: relative;
+  padding: 40px 0px;
+}
+
+.footer-display {
+  justify-content: space-between;
+  display: flex;
+  /* max-width: 800px; */
+  margin: 0 auto;
+
+}
+
+.footer h1 {
+  font-family: 'Titillium';
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgba(125, 135, 147, 1);
+  margin-bottom: 11px;
+
+}
+
+.footer p {
+  font-family: 'TitilliumLt';
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgba(125, 135, 147, 1);
+  line-height: 1;
+  text-decoration: none;
+}
+
+.footer a {
+  text-decoration: none !important;
+  color: transparent;
+}
+
+.icon-display {
+  display: flex;
+  align-items: flex-end;
+}
+
+.icon-display img {
+  height: 20px;
+  width: 20px;
+  margin: 0 10px;
+}
+
+.img-1 {
+  width: 80%;
+  height: 200px;
+  margin: 0 10px;
+  object-fit: contain;
+}
+
+.footer {
+  padding: 40px 0;
+}
+
+.footer-display {
+  flex-wrap: wrap;
+}
+
+.footer p {
+  font-size: .9rem;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  top: 32px;
+  position: relative;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.subscribe button {
+  height: 38px;
+  width: 257px;
+  border: 1px solid rgba(32, 165, 222, 1);
+  border-radius: 19px;
+  font-size: .7rem;
+  font-family: 'Titillium';
+  font-weight: bold;
+  color: rgba(32, 165, 222, 1);
+  text-align: left;
+  padding-left: 30px;
+  outline: none;
+  background: transparent;
+}
+
+.subscribe button:focus {
+  outline: none;
+}
+
+.subscribe div {
+  position: absolute;
+  right: 0.30%;
+  top: 2.5px;
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  background-color: rgba(71, 194, 247, 1);
+  cursor: pointer;
+}
+
+.see-more-2 {
+  width: 120px;
+  text-align: left;
+  top: -38px;
+  padding-left: 20px;
+  left: 279px;
+  font-family: 'TitilliumLt';
+}
+
+.tab-comment {
+  display: none;
+}
+
+.subdiv {
+  display: none;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:500px) {
+  ._p {
+    font-size: 0.6rem;
+  }
+
+  .menu {
+    height: 30px;
+  }
+
+  .codekago-logo {
+    height: 22px;
+  }
+
+  .subscribe {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: unset;
+
+  }
+
+  .subscribe button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .subscribe button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .subscribe div {
+    position: relative;
+    right: 0;
+    top: 0;
+    left: 26px;
+  }
+
+  .subscribe p {
+    text-align: left;
+  }
+
+  .mobile-input-div {
+    display: flex;
+    margin-top: 40px;
+  }
+
+  .hide-continue {
+    display: none;
+  }
+
+  .stack-div {
+    display: none;
+  }
+}
+
+@media only screen and (min-width:600px) {
+  .tab-remove-margin {
+    margin-bottom: 0rem !important;
+  }
+
+  .video-display {
+    height: 300px;
+  }
+
+  .blog2-tab-reverse {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .tab-img-view {
+    height: 300px;
+    object-fit: cover;
+    image-rendering: pixelated;
+    border-radius: 8px;
+  }
+
+  .mobile-foot {
+    height: 500px;
+    padding-top: 399px;
+  }
+
+  .category {
+    margin-top: 0;
+  }
+
+  .blog-first-title {
+    margin-top: 0px;
+  }
+
+  .blog-first-poster {
+    font-family: 'TitilliumLt';
+    font-size: 10px;
+  }
+
+  .recent-tab-view {
+    align-items: center;
+    margin-top: -1px;
+    margin-bottom: 6px;
+
+  }
+
+  .tab-space {
+    margin-top: 3rem;
+  }
+
+  .mobile-input-div {
+    display: flex;
+    margin-top: 13px;
+  }
+
+  .tab {
+    font-family: 'TitilliumLt';
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(32, 165, 222, 1);
+    text-align: left;
+    line-height: 20px;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  .tab:hover {
+    color: rgba(32, 165, 222, 1);
+  }
+
+  .tab-color {
+    color: rgba(83, 100, 119, 1);
+  }
+
+  .stack-div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subdiv {
+    text-align: right;
+  }
+
+  .subsFeed {
+    font-family: 'TitilliumL';
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(83, 100, 119, 1);
+    text-align: right;
+    line-height: 20px;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .mobile-foot {
+    height: 600px;
+    padding-top: 450px;
+    background: url("/assets/footer 2 clipped.svg") no-repeat;
+    background-size: cover;
+  }
+
+  .video-display {
+    height: 400px;
+  }
+
+  .mobile-foot {
+    height: 350px;
+    padding-top: 217px;
+  }
+
+  .mobile-input-div {
+    margin-top: 0px;
+  }
+
+  .blogged-img {
+    width: 148%;
+    margin-left: -35px;
+  }
+
+  .bg-img {
+    margin-left: 0px;
+  }
+
+  .hide-continue {
+    display: flex;
+  }
+
+  .tab-comment {
+    display: block;
+  }
+
+  .subdiv {
+    display: block;
+
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+  .bg-img {
+    margin-left: -77px;
+  }
+
+  .blog-title {
+    font-size: 14px;
+  }
+
+  .mobile-foot {
+    background: url("/assets/footer 2 clipped.svg") no-repeat;
+    height: 460px;
+    background-size: cover;
+    padding-top: 300px;
+  }
+
+  .mobile-xspace {
+    margin-top: -40px;
+  }
+
+  .tab-img-view {
+    height: 324px;
+    width: 324px;
+  }
+
+  .tab-video-space {
+    max-width: 300px;
+    margin: 0 auto;
+
+  }
+
+  .stack-div {
+    max-width: 300px;
+
+  }
+
+  .mobile-text {
+    font-size: 58px;
+  }
+
+}

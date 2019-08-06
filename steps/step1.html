@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Thank you</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/font.css">
+  <link rel="stylesheet" href="step1.css">
+</head>
+
+<body>
+  <div>
+    <nav class="navbar navbar-expand-sm navbar-light container">
+      <div class="navbar-home">
+        <img src="assets/codekago logo blue.svg" alt="" class="codekago-logo">
+        <div id="menu" onclick="homeMenu()">
+          <div>
+            <p class="_p">menu</p>
+            <img src="assets/menu white.svg" alt="" class="menu">
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div style="flex:1">
+      <div class="ruler"></div>
+    </div>
+    <div class="container bg">
+      <div class="selectDiv">
+        <p id="intro">Which of our services would you like? Let’s ignore your budget for now.</p>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-3 radioDisplay">
+                <label>
+                  <input type="checkbox" id="check1" onclick="checkClick()">
+                  <span class="checkmark"></span>
+                  <p class="text" id="digital">DIGITAL DESIGN </p>
+                </label>
+              </div>
+              <div class="col-md-3 radioDisplay">
+                <label>
+                  <input type="checkbox" id="check2" onclick="checkClick1()">
+                  <span class="checkmark"></span>
+                  <p class="text" id="content">content management </p>
+                </label>
+              </div>
+              <div class="col-md-3 radioDisplay">
+                <label>
+                  <input type="checkbox" id="check3" onclick="checkClick2()">
+                  <span class="checkmark"></span>
+                  <p class="text" id="branding">Branding </p>
+                </label>
+              </div>
+              <div class="col-md-4 radioDisplay space-radio">
+                <label>
+                  <input type="checkbox" id="check4" onclick="checkClick3()">
+                  <span class="checkmark"></span>
+                  <p class="text" id="notSure">not sure </p>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="small">
+          <div>
+            <p>1</p>
+          </div>
+
+          <div>
+            <p>2</p>
+          </div>
+          <div>
+            <p>OK</p>
+          </div>
+          <div>
+            <p>4</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="circles">
+        <div class="circle-1" onclick="step1()">
+          <p>1</p>
+        </div>
+        <div class="circle-2" onclick="step2()">
+          <p>2</p>
+        </div>
+        <div class="circle-3" onclick="step3()">
+          <p>OK</p>
+        </div>
+        <div class="circle-4" onclick="step3()">
+          <p>4</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container footer" onclick="moveToHome()">
+    <img src="assets/portfolio/backward arrow inactive.svg" alt="">
+    <p>Back Home</p>
+  </div>
+</body>
+<script src="/js/step1.js"></script>
+
+</html>

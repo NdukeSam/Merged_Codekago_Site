@@ -1,0 +1,211 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-moz-scrollbar {
+  display: none;
+}
+
+::-ms-overflow-style {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 253, 255, 1) 22%, rgba(240, 247, 255, 1) 100%);
+  overflow: hidden;
+  width: 100vw;
+  height: 100%;
+}
+
+@media only screen and (max-width:700px) {
+  .body-con {
+    overflow-x: hidden;
+    /* width:100vw;
+      height:100%; */
+  }
+}
+
+/* .body-con {} */
+
+.navbar-home {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.codekago-logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 2;
+}
+
+._p {
+  line-height: 18px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  text-transform: uppercase;
+  font-family: 'Titillium';
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgba(85, 86, 85, 1);
+}
+
+nav {
+  margin-bottom: 150px;
+}
+
+.menu {
+  height: 38px;
+  position: relative;
+  top: -15px;
+  cursor: pointer;
+}
+
+.error-text {
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Titillium';
+  color: rgba(83, 100, 119, 1);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.error-text p {
+  margin: 0 !important;
+}
+
+.level {
+  color: rgba(83, 100, 119, 0.9);
+  font-weight: 300;
+  font-family: 'TitilliumL'
+}
+
+.back-home {
+  color: rgba(132, 142, 154, 1);
+  font-family: 'TitilliumL';
+  display: flex;
+  padding-top: 30vh;
+}
+
+.back-home img {
+  width: 20px;
+  height: 25px;
+  margin-right: 12px;
+}
+
+.new-project {
+  position: absolute;
+  right: -8vw;
+  top: 37%;
+
+}
+
+.new-project button {
+  display: flex;
+  width: 270px;
+  padding: 15px 2px;
+  border: none;
+  border-radius: 6px 0 0 0 !important;
+  background-image: linear-gradient(rgba(47, 170, 223, 1) 0%, rgba(88, 204, 255, 1) 100%);
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'TitilliumL';
+  justify-content: center;
+  outline: none;
+}
+
+.new-project button:focus {
+  outline: none;
+}
+
+.new-project button img {
+  width: 100px;
+  height: 25px;
+  align-self: center;
+}
+
+.django-img {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  left: 34%;
+}
+
+.social-icons {
+  display: none;
+}
+
+@media only screen and (max-width:900px)and (min-width:600px) {
+  .error-text {
+    padding-top: 88px !important;
+  }
+
+  .django-img {
+    width: 200px !important;
+    height: 300px !important;
+    left: 34% !important;
+  }
+
+  .new-project button {
+    width: 270px !important;
+    padding: 15px 2px !important;
+  }
+
+  .new-project {
+    top: 34% !important;
+  }
+}
+
+@media only screen and (min-width:600px) {
+  .error-text {
+    font-size: 40px;
+    padding-top: 150px;
+    /* display:flex;
+        flex-direction: column;
+        justify-content: center; */
+  }
+
+  .new-project {
+    right: 0vw;
+    top: 28%;
+  }
+
+  .new-project button {
+    width: 400px;
+    padding: 25px 2px;
+  }
+
+  .django-img {
+    width: 260px;
+    height: 400px;
+    left: 37%;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 30px;
+  }
+
+  .social-icons img {
+    width: 15px;
+  }
+}

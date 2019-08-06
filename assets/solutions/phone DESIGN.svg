@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="89.589" height="158.568" viewBox="0 0 89.589 158.568">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.164" y1="-0.239" x2="-0.136" y2="1.209" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray"/>
+      <stop offset="1" stop-color="#3c3c3b"/>
+    </linearGradient>
+  </defs>
+  <g id="phone_DESIGN" data-name="phone DESIGN" transform="translate(-870 -938.952)">
+    <path id="Path_1412" data-name="Path 1412" d="M89.589,16.2V142.363a16.2,16.2,0,0,1-16.2,16.2H16.2A16.2,16.2,0,0,1,0,142.363V16.2A16.2,16.2,0,0,1,16.2,0H26.519V6.783H63.074V0h10.3A16.2,16.2,0,0,1,89.589,16.2Z" transform="translate(870 938.952)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_179" data-name="Rectangle 179" width="39.566" height="1.131" rx="0.565" transform="translate(895.012 1089.896)" fill="#8b8b8b"/>
+  </g>
+</svg>

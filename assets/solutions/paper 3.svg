@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99.377" height="53.342" viewBox="0 0 99.377 53.342">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.501" x2="1" y2="0.501" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb9ff"/>
+      <stop offset="0.1" stop-color="#f5bbff"/>
+      <stop offset="0.26" stop-color="#dbc1ff"/>
+      <stop offset="0.47" stop-color="#b0caff"/>
+      <stop offset="0.72" stop-color="#75d6ff"/>
+      <stop offset="0.99" stop-color="#2ae6ff"/>
+      <stop offset="1" stop-color="#29e6ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="0.499" y2="0.499" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0" y1="0.499" y2="0.499" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="paper_3" data-name="paper 3" transform="translate(-961.674 -253.284)">
+    <rect id="Rectangle_148" data-name="Rectangle 148" width="99.377" height="53.342" rx="7.74" transform="translate(961.674 253.284)" fill="#fff"/>
+    <rect id="Rectangle_149" data-name="Rectangle 149" width="86.069" height="5.327" transform="translate(968.331 260.241)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_150" data-name="Rectangle 150" width="49.591" height="5.327" transform="translate(968.331 271.456)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_151" data-name="Rectangle 151" width="24.799" height="5.327" transform="translate(973.659 282.664)" fill="url(#linear-gradient-3)"/>
+    <rect id="Rectangle_152" data-name="Rectangle 152" width="86.069" height="5.327" transform="translate(968.331 293.872)" fill="silver"/>
+  </g>
+</svg>

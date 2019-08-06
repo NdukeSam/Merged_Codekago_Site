@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="715" viewBox="0 0 1280 715">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_337" data-name="Rectangle 337" width="1280" height="715" transform="translate(0 770)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="footer_2_clipped" data-name="footer 2 clipped" transform="translate(0 -770)" clip-path="url(#clip-path)">
+    <path id="background" d="M1617.479,3698.921s-16.6-232.287,117.4-249.718,181.873,247.756,461.875,123.572,406.12-329.233,781.746-173.569,394.657,294.957,734.949,224.2,242.484,862.4,242.484,862.4H1653.008Z" transform="translate(-2229.896 -2518.168)" fill="#e5f1ff"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.061 11.205">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: white;
+        stroke-linecap: round;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="back" transform="translate(-152.5 -664)">
+    <path id="Path_377" data-name="Path 377" class="cls-1" d="M2723,4282.667h24.06" transform="translate(2901.061 4952.372) rotate(180)"/>
+    <path id="Path_378" data-name="Path 378" class="cls-2" d="M2742.959,4277.6l5.1,5.1-5.1,5.1" transform="translate(2901.061 4952.306) rotate(180)"/>
+  </g>
+</svg>

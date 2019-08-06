@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.841 15.258">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #d5dfeb;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="backward_arrow_inactive" data-name="backward arrow inactive" transform="translate(-904.731 -3258.208)">
+    <path id="Path_928" data-name="Path 928" class="cls-1" d="M2723,4282.667h15.54" transform="translate(3645.572 7548.637) rotate(180)"/>
+    <path id="Path_929" data-name="Path 929" class="cls-2" d="M2742.959,4277.6l6.629,6.629-6.629,6.629" transform="translate(3655.319 7550.067) rotate(180)"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16.822 16.822">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.52;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbdff"/>
+      <stop offset="0.1" stop-color="#f5bfff"/>
+      <stop offset="0.26" stop-color="#dbc4ff"/>
+      <stop offset="0.47" stop-color="#b0ccff"/>
+      <stop offset="0.72" stop-color="#75d8ff"/>
+      <stop offset="0.99" stop-color="#2ae6ff"/>
+      <stop offset="1" stop-color="#29e6ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="bubble_1" data-name="bubble 1" transform="translate(-447.908 -199.503)">
+    <circle id="Ellipse_38" data-name="Ellipse 38" class="cls-1" cx="8.411" cy="8.411" r="8.411" transform="translate(447.908 199.503)"/>
+    <circle id="Ellipse_39" data-name="Ellipse 39" class="cls-2" cx="5.661" cy="5.661" r="5.661" transform="translate(450.658 202.253)"/>
+  </g>
+</svg>

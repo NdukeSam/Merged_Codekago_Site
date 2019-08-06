@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111.115" height="107" viewBox="0 0 111.115 107">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbdff"/>
+      <stop offset="0.1" stop-color="#f5bfff"/>
+      <stop offset="0.26" stop-color="#dbc4ff"/>
+      <stop offset="0.47" stop-color="#b0ccff"/>
+      <stop offset="0.72" stop-color="#75d8ff"/>
+      <stop offset="0.99" stop-color="#2ae6ff"/>
+      <stop offset="1" stop-color="#29e6ff"/>
+    </linearGradient>
+  </defs>
+  <path id="design_icon" data-name="design icon" d="M86.423,37.038H45.269v8.231H37.038V32.923H86.423V8.231H82.308V20.577a4.173,4.173,0,0,1-4.115,4.115H4.115a3.955,3.955,0,0,1-2.894-1.222A3.955,3.955,0,0,1,0,20.577V4.115A3.955,3.955,0,0,1,1.222,1.222,3.955,3.955,0,0,1,4.115,0H78.192a3.955,3.955,0,0,1,2.894,1.222,3.955,3.955,0,0,1,1.222,2.894h8.231V37.038ZM74.077,4.115H8.231V8.231H74.077ZM49.385,90.538a8.185,8.185,0,0,1-14.018,5.787,7.91,7.91,0,0,1-2.444-5.787V49.385H49.385Zm-8.231-5.787a4.066,4.066,0,0,0-2.894,1.157,3.9,3.9,0,0,0-1.222,2.958,4.116,4.116,0,0,0,8.231,0,3.9,3.9,0,0,0-1.222-2.958A4.066,4.066,0,0,0,41.154,84.751ZM111.115,107" fill="url(#linear-gradient)"/>
+</svg>

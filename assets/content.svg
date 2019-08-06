@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 33.432 35.036">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbdff"/>
+      <stop offset="0.1" stop-color="#f5bfff"/>
+      <stop offset="0.26" stop-color="#dbc4ff"/>
+      <stop offset="0.47" stop-color="#b0ccff"/>
+      <stop offset="0.72" stop-color="#75d8ff"/>
+      <stop offset="0.99" stop-color="#2ae6ff"/>
+      <stop offset="1" stop-color="#29e6ff"/>
+    </linearGradient>
+  </defs>
+  <path id="content" class="cls-1" d="M25.447,31.865V6.343H22.313v4.776H6.343V6.343H3.209V31.865ZM14.328,3.209a1.53,1.53,0,0,0-1.567,1.567,1.567,1.567,0,1,0,3.134,0,1.53,1.53,0,0,0-1.567-1.567Zm11.119,0a3.135,3.135,0,0,1,2.239.933,2.955,2.955,0,0,1,.97,2.2V31.865a2.955,2.955,0,0,1-.97,2.2A3.135,3.135,0,0,1,25.447,35H3.209A3.135,3.135,0,0,1,.97,34.066a2.955,2.955,0,0,1-.97-2.2V6.343a2.955,2.955,0,0,1,.97-2.2,3.135,3.135,0,0,1,2.239-.933H9.85A4.984,4.984,0,0,1,11.567.9,4.477,4.477,0,0,1,14.328,0a4.477,4.477,0,0,1,2.761.9,4.984,4.984,0,0,1,1.716,2.313Zm7.985,31.827"/>
+</svg>

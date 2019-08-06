@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.461 36.69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #45ffc0;
+      }
+
+      .cls-2 {
+        fill: #c0ffe7;
+      }
+    </style>
+  </defs>
+  <g id="diamond_3" data-name="diamond 3" transform="translate(-1144.294 -1353.642)">
+    <path id="Path_1048" data-name="Path 1048" class="cls-1" d="M480.571,480.532,457.34,505.77l-23.23-25.238.008-.008L445.57,469.08h23.549Z" transform="translate(710.184 884.562)"/>
+    <path id="Path_1049" data-name="Path 1049" class="cls-2" d="M480.564,480.524H434.12l11.452-11.444h23.549Z" transform="translate(710.183 884.562)"/>
+  </g>
+</svg>

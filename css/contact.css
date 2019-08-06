@@ -1,0 +1,403 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: -webkit-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 253, 255, 1) 22%, rgba(240, 247, 255, 1) 100%);
+  background-image: -moz-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 253, 255, 1) 22%, rgba(240, 247, 255, 1) 100%);
+  background-image: -o-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 253, 255, 1) 22%, rgba(240, 247, 255, 1) 100%);
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 253, 255, 1) 22%, rgba(240, 247, 255, 1) 100%);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-moz-scrollbar {
+  display: none;
+}
+
+::-ms-overflow-style {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-image: -webkit-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(240, 247, 255, 1) 100%);
+  background-image: -moz-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(240, 247, 255, 1) 100%);
+  background-image: -o-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(240, 247, 255, 1) 100%);
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(240, 247, 255, 1) 100%);
+  width: 100%;
+}
+
+.navbar-home {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.codekago-logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 2;
+}
+
+._p {
+  line-height: 18px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  text-transform: uppercase;
+  font-family: 'Titillium';
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgba(85, 86, 85, 1);
+}
+
+.menu {
+  height: 38px;
+  position: relative;
+  top: -15px;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: 'Titillium';
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgba(83, 100, 119, 1);
+  text-align: left;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+p {
+  font-family: 'TitilliumL';
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(132, 142, 154, 1);
+  text-align: left;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+a {
+  text-decoration: none;
+  color: transparent;
+}
+
+._margin {
+  margin-top: 4em;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.start {
+  font-family: 'TitilliumL';
+  font-size: 2rem;
+  font-weight: 300;
+  height: 100px;
+  width: 491px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.06);
+  background-image: -webkit-linear-gradient(rgba(47, 170, 223, 1) 0%, rgba(88, 204, 255, 1) 100%);
+  background-image: -moz-linear-gradient(rgba(47, 170, 223, 1) 0%, rgba(88, 204, 255, 1) 100%);
+  background-image: -o-linear-gradient(rgba(47, 170, 223, 1) 0%, rgba(88, 204, 255, 1) 100%);
+  background-image: linear-gradient(rgba(47, 170, 223, 1) 0%, rgba(88, 204, 255, 1) 100%);
+  color: white;
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  position: absolute;
+  right: -90px;
+  z-index: 1;
+  top: 50px;
+  border: none;
+  align-items: center;
+}
+
+.start:focus {
+  outline: none;
+}
+
+.start img {
+  height: 30px;
+  transform: rotate(180deg);
+}
+
+hr {
+  border: 0.5px solid rgba(83, 100, 119, 0.16);
+  width: 100%;
+}
+
+h2 {
+  font-family: 'Titillium';
+  font-size: .8rem;
+  font-weight: 600;
+  color: rgba(132, 142, 154, 1);
+}
+
+.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.ecplise {
+  position: relative;
+  right: -506px;
+  top: -264px;
+
+}
+
+/* <img src="/assets/web contact/Back item.svg" alt="" class="foot"> */
+.foot {
+  position: relative;
+  top: -470px;
+  margin-right: -80px;
+  /* background: url("/assets/web contact/Back item.svg"); */
+}
+
+.foot-item {
+  top: -850px;
+  position: relative;
+  right: -970px;
+  height: 300px;
+}
+
+.web-container {
+  height: auto;
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+.mobile-container {
+  display: none;
+}
+
+.footer-img {
+  background: url('/assets/web contact/front item.svg')no-repeat;
+  height: 300px;
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 600px) {
+
+  .web-container {
+    display: none;
+  }
+
+  .codekago-logo {
+    height: 22px;
+    width: 118px;
+  }
+
+  .menu {
+    height: 30px;
+  }
+
+  ._p {
+    font-size: 0.6rem;
+  }
+
+  /* .mobile-section {} */
+
+  a p {
+    /* border-bottom: .01rem solid gray; */
+    width: 35%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .start {
+    display: none;
+  }
+
+  .mobile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .mobile-grid p {
+    font-size: .9rem;
+
+  }
+
+  .mobile-social {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+
+  .mobile-social img {
+    height: 14px;
+    width: 14px;
+  }
+
+  .mobile-action {
+    position: relative;
+    left: 10px;
+    height: 67px;
+    width: 329px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.06);
+    background-image: -webkit-linear-gradient(rgba(47, 170, 223, 1) 0%, rgba(88, 204, 255, 1) 100%);
+    background-image: -moz-linear-gradient(rgba(47, 170, 223, 1) 0%, rgba(88, 204, 255, 1) 100%);
+    background-image: -o-linear-gradient(rgba(47, 170, 223, 1) 0%, rgba(88, 204, 255, 1) 100%);
+    background-image: linear-gradient(rgba(47, 170, 223, 1) 0%, rgba(88, 204, 255, 1) 100%);
+    display: flex;
+    align-items: center;
+    outline: none;
+    font-family: 'TitilliumL';
+    font-size: 22px;
+    font-weight: 300;
+    color: rgba(252, 253, 255, 1);
+    border: none;
+    justify-content: space-evenly;
+  }
+
+  .mobile-action:focus {
+    outline: none;
+  }
+
+  .mobile-action img {
+    height: 30px;
+    transform: rotate(180deg);
+  }
+
+  .mobile-ecplise {
+    clip: rect(0px, 211px, 600px, 0px);
+    position: absolute;
+    left: 253px;
+    /* left: 500px; */
+  }
+
+  .mobile-boot {
+    position: relative;
+    width: 100vw;
+    margin-top: -92px;
+  }
+
+  .mobile-section {
+    display: block;
+    overflow-x: hidden;
+  }
+
+  .mobile-container {
+    display: block;
+  }
+
+  .mobile-ecplise {
+    left: 181px;
+    position: relative;
+  }
+
+}
+
+@media only screen and (min-width:601px) and (max-width:1000px) {
+
+  ._p {
+    font-size: 0.8rem;
+  }
+
+  .foot {
+    position: relative;
+    top: -371px;
+    margin-right: 0;
+  }
+
+  .mt-5,
+  .my-5 {
+    margin-top: 0rem !important;
+  }
+
+  .start {
+    width: 432px;
+    align-items: center;
+    padding: 0 23px;
+    justify-content: unset;
+  }
+
+  .start img {
+    margin-left: 44px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width:2000px) {
+  .foot {
+    width: 45%;
+    left: 55%;
+    transform: translateX(-50%);
+    position: absolute;
+    transform: rotateX(-50%);
+    top: 398px;
+    clip: rect(0px, 1165px, 274px, 0px);
+  }
+
+  .ecplise {
+    clip: rect(0px, 211px, 600px, 0px);
+    position: absolute;
+    left: 500px;
+  }
+
+  .foot-item {
+    position: absolute;
+    clip: rect(0px 300px 236px 0px);
+    left: 62.5%;
+    top: 467px;
+  }
+}
+
+@-moz-document url-prefix() {
+  .start {
+    right: -172px;
+
+  }
+
+  .mobile-ecplise {
+    position: relative;
+  }
+
+  .mobile-boot {
+    position: relative;
+    width: 100vw;
+    margin-top: -104px;
+  }
+
+  .mobile-action {
+    position: relative;
+    left: 57px;
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="810" height="318" viewBox="0 0 810 318">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_271" data-name="Rectangle 271" width="810" height="318" transform="translate(0 4303)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="trainings_divider_clipped" data-name="trainings divider clipped" transform="translate(0 -4303)" clip-path="url(#clip-path)">
+    <path id="trainings_divider" data-name="trainings divider" d="M6189.6,4540.178c51.954,17.824,112.824-70.883,200.837-55.108s155.233,29.972,202.26,19.687,67.625-36.417,144.526-37.235,191.881-6.645,191.881-6.645-183.112-62.513-275.8-47.1-62.926,26.954-137.365,10.792-144.9-74.39-182.423-62.611-151.8-20.3-150.9,51.819S6137.642,4522.354,6189.6,4540.178Z" transform="translate(-6176.434 5)" fill="#4cc0ad"/>
+  </g>
+</svg>

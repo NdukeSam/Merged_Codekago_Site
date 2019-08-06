@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="324" height="80.531" viewBox="0 0 324 80.531">
+  <g id="offline_banner" data-name="offline banner" transform="translate(-648 -3698.469)">
+    <path id="Rectangle_243" data-name="Rectangle 243" d="M8,0H316a8,8,0,0,1,8,8V80a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V8A8,8,0,0,1,8,0Z" transform="translate(648 3698.469)" fill="#c9a1cb"/>
+    <g id="Group_220" data-name="Group 220">
+      <path id="Path_2016" data-name="Path 2016" d="M165.53,93H0V40.79A490.081,490.081,0,0,1,165.53,93Z" transform="translate(648 3686)" fill="#d5a680"/>
+      <path id="Path_2017" data-name="Path 2017" d="M136.9,93H0V54.66A489.894,489.894,0,0,1,136.9,93Z" transform="translate(648 3686)" fill="#b98866"/>
+      <path id="Path_2018" data-name="Path 2018" d="M108.26,82.81c-1.37,1.68-1.68,5.24-6.54,7.73A27.52,27.52,0,0,1,91.51,93H40.65c1.12-5.66,2.11-10.24,2.11-10.24s-7,1.13-16-8.93a29.65,29.65,0,0,1-4.22-5.75c-2.83-5.38.55-7,4.22-7C31.51,61,39.51,66,42.76,63s6.75-1.5,9.25-.75S61.48,69,65,67.51s14.13-.31,14.51,2S72,76,85.51,78,110.26,80.35,108.26,82.81Z" transform="translate(648 3686)" fill="#9ad09c"/>
+      <path id="Path_2019" data-name="Path 2019" d="M101.72,90.54A27.52,27.52,0,0,1,91.51,93H40.65c1.12-5.66,2.11-10.24,2.11-10.24s-7,1.13-16-8.93a29.65,29.65,0,0,1-4.22-5.75C41.37,71.16,78.91,78.44,101.72,90.54Z" transform="translate(648 3686)" fill="#80bc82"/>
+    </g>
+  </g>
+</svg>

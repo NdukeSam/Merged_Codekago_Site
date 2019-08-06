@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "titillium";
+  src: url("/Titillium/Titillium-Bold.otf");
+}
+
+@font-face {
+  font-family: "titilliumLt";
+  src: url("/Titillium/Titillium-SemiboldUpright.otf");
+}
+
+@font-face {
+  font-family: "titilliumL";
+  src: url("/Titillium/Titillium-LightUpright.otf");
+}
+
+@font-face {
+  font-family: "titilliumI";
+  src: url("/Titillium/Titillium-BoldItalic.otf");
+}

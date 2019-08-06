@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="196.007" height="353.328" viewBox="0 0 196.007 353.328">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.391" y1="1.229" x2="0.532" y2="-0.359" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffdbff"/>
+      <stop offset="0.06" stop-color="#e3dcff"/>
+      <stop offset="0.19" stop-color="#b2dfff"/>
+      <stop offset="0.32" stop-color="#88e1ff"/>
+      <stop offset="0.45" stop-color="#66e3ff"/>
+      <stop offset="0.58" stop-color="#4be4ff"/>
+      <stop offset="0.71" stop-color="#38e5ff"/>
+      <stop offset="0.85" stop-color="#2de6ff"/>
+      <stop offset="1" stop-color="#29e6ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.391" y1="1.229" x2="0.532" y2="-0.359" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.365" y1="1.09" x2="0.515" y2="-0.123" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.496" y1="1.305" x2="0.517" y2="-0.375" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="space_ship" data-name="space ship" transform="matrix(0.966, 0.259, -0.259, 0.966, 85.911, -6.25)">
+    <g id="Layer_1" data-name="Layer 1">
+      <path id="Path_1964" data-name="Path 1964" d="M72.29,328.24H64.24l-2.56-28.96H74.85Z" fill="url(#linear-gradient)"/>
+      <path id="Path_1965" data-name="Path 1965" d="M76.84,301.88H59.68l-5.44-61.71H82.29Z" fill="url(#linear-gradient-2)"/>
+      <path id="Path_1966" data-name="Path 1966" d="M87.4,253.38H49.8L37.86,118.14H99.34Z" fill="url(#linear-gradient-3)"/>
+      <path id="Path_1967" data-name="Path 1967" d="M57,143.24s4.5,66,13,58.5,11.5-58.5,11.5-58.5Z" fill="#fff" opacity="0.66"/>
+      <path id="Path_1968" data-name="Path 1968" d="M108.94,159.4a80.52,80.52,0,0,0-39.72-10.61h-.16a80.45,80.45,0,0,0-39.9,10.61C19.64,119.28,21,66.49,57.23,6.9A13.8,13.8,0,0,1,68.32,0h.9A13.74,13.74,0,0,1,80.87,6.9a253.879,253.879,0,0,1,14.77,28C117.27,83,117,125.68,108.94,159.4Z" fill="#fff"/>
+      <path id="Path_1969" data-name="Path 1969" d="M113.52,104.12a183.351,183.351,0,0,1-2.06,42.76,28.34,28.34,0,0,1,21.21,7,3.3,3.3,0,0,0,5.46-2.45C138.18,118.48,115.59,105.27,113.52,104.12Z" fill="#ededed"/>
+      <path id="Path_1970" data-name="Path 1970" d="M24.61,104.12a183.35,183.35,0,0,0,2.06,42.76,28.39,28.39,0,0,0-21.22,7A3.29,3.29,0,0,1,0,151.41C-.06,118.48,22.53,105.27,24.61,104.12Z" fill="#d6d6d6"/>
+      <path id="Path_1971" data-name="Path 1971" d="M69.22,0V148.79h-.16a80.56,80.56,0,0,0-39.9,10.61C19.64,119.29,21,66.5,57.23,6.91A13.75,13.75,0,0,1,69.22,0Z" fill="#ededed"/>
+      <ellipse id="Ellipse_96" data-name="Ellipse 96" cx="34.54" cy="38.45" rx="34.54" ry="38.45" transform="translate(34.68 79.69)" fill="#45ffb3"/>
+      <ellipse id="Ellipse_97" data-name="Ellipse 97" cx="28.44" cy="31.66" rx="28.44" ry="31.66" transform="translate(40.78 86.48)" fill="#ededed"/>
+      <path id="Path_1972" data-name="Path 1972" d="M97.66,118.15c0,17.48-12.73,31.65-28.44,31.65s-28.44-14.17-28.44-31.65a21.744,21.744,0,0,1,.1-2.56,70.9,70.9,0,0,1,28.17-5.49,70.68,70.68,0,0,1,28.52,5.65Q97.66,116.94,97.66,118.15Z" fill="#45ffb3"/>
+      <path id="Path_1973" data-name="Path 1973" d="M137.85,352.74H2.48c0-22.59,13.83-40.92,30.89-40.92,9.29,0,17.6,5.46,23.26,14.06a16.83,16.83,0,0,1,6.83-1.5,17.29,17.29,0,0,1,9.81,3.17c5.55-9.09,14-14.91,23.53-14.91,11.54,0,21.56,8.56,26.67,21.15h.07C131.44,333.78,137.85,342.27,137.85,352.74Z" transform="matrix(0.966, -0.259, 0.259, 0.966, -83.61, 29.482)" fill="url(#linear-gradient-4)"/>
+      <path id="Path_1974" data-name="Path 1974" d="M97.66,124.94c0,17.48-12.73,31.65-28.44,31.65s-28.44-14.17-28.44-31.65a21.744,21.744,0,0,1,.1-2.56,70.9,70.9,0,0,1,28.17-5.49,70.68,70.68,0,0,1,28.52,5.65Q97.66,123.73,97.66,124.94Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

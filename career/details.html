@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Thank you</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/font.css">
+  <link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+  <div class="cover">
+    <nav class="navbar navbar-expand-sm navbar-light container">
+      <div class="navbar-home">
+        <img src="../assets/codekago logo blue.svg" alt="" class="codekago-logo">
+        <div id="menu" onclick="homeMenu()">
+          <div>
+            <p class="_p">menu</p>
+            <img src="../assets/menu white.svg" alt="" class="menu">
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container bg">
+      <div class="selectDiv">
+        <div>
+          <p id="intro">What’s Your Full Name?</p>
+          <div class="input-group">
+            <input type="text" placeholder="Prisca Amaefule">
+          </div>
+        </div>
+        <div>
+          <p id="intro">What’s Your Email?</p>
+          <div class="input-group">
+            <input type="email" placeholder="artofofiare@yahoo.com">
+          </div>
+        </div>
+        <div>
+          <p id="intro">Give us your phone number</p>
+          <div class="input-group">
+            <input type="text" placeholder="+234 70 3927 81xx">
+          </div>
+        </div>
+        <div class="small">
+          <div onclick="moveToCred()">
+            <p>OK</p>
+          </div>
+          <div onclick="moveToCred()">
+            <p>2</p>
+          </div>
+          <div onclick="moveToReason()">
+            <p>3</p>
+          </div>
+        </div>
+        <div class="container footer" onclick="moveToHome()">
+          <img src="../assets/portfolio/backward arrow inactive.svg" alt="">
+          <p>Back Home</p>
+        </div>
+      </div>
+      <div class="circles">
+        <div class="ruled"></div>
+        <div class="circle-3" onclick="moveToCred()">
+          <p>OK</p>
+        </div>
+        <div class="circle-2" onclick="moveToCred()">
+          <p>2</p>
+        </div>
+        <div class="circle-4" onclick="moveToReason()">
+          <p>3</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="/js/career.js"></script>
+
+</html>

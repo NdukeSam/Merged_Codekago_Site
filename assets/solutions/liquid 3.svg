@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80.491" height="80.115" viewBox="0 0 80.491 80.115">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-86.023" y1="-0.657" x2="-84.989" y2="-0.657" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb9ff"/>
+      <stop offset="0.1" stop-color="#f5bbff"/>
+      <stop offset="0.26" stop-color="#dbc1ff"/>
+      <stop offset="0.47" stop-color="#b0caff"/>
+      <stop offset="0.72" stop-color="#75d6ff"/>
+      <stop offset="0.99" stop-color="#2ae6ff"/>
+      <stop offset="1" stop-color="#29e6ff"/>
+    </linearGradient>
+  </defs>
+  <path id="liquid_3" data-name="liquid 3" d="M2898.69,380.3s69.489,26.518,66.4,51.609-30.3,12.6-35.955-1.681S2922.832,392.39,2898.69,380.3Z" transform="translate(-2904.59 348.342) rotate(-14)" fill="url(#linear-gradient)"/>
+</svg>

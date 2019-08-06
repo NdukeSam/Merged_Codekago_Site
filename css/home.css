@@ -1,0 +1,1318 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-moz-scrollbar {
+  display: none;
+}
+
+::-ms-overflow-style {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  background-image: -webkit-radial-gradient(circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(252, 253, 255, 1) 22%,
+      rgba(240, 247, 255, 1) 100%);
+  background-image: -moz-radial-gradient(circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(252, 253, 255, 1) 22%,
+      rgba(240, 247, 255, 1) 100%);
+  background-image: -o-radial-gradient(circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(252, 253, 255, 1) 22%,
+      rgba(240, 247, 255, 1) 100%);
+  background-image: radial-gradient(circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(252, 253, 255, 1) 22%,
+      rgba(240, 247, 255, 1) 100%);
+  width: 100%;
+}
+
+.cover {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar-home {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.codekago-logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 2;
+}
+
+._p {
+  line-height: 18px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  text-transform: uppercase;
+  font-family: "Titillium";
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgba(85, 86, 85, 1);
+}
+
+nav {
+  margin-bottom: 150px;
+}
+
+.menu {
+  height: 38px;
+  position: relative;
+  top: -15px;
+  cursor: pointer;
+}
+
+.xyz {
+  align-items: center;
+  position: absolute;
+  margin-top: -34px;
+  /* margin-top: -300px; */
+}
+
+.bg-cover {
+  max-width: 100vw;
+  margin: -81px calc(-50vw + 50%);
+  position: relative;
+  width: 100vw;
+}
+
+.bg-head {
+  background: url("/assets/illustration clip mobile.svg") no-repeat;
+  height: 600px;
+  background-size: cover;
+  max-width: 100vw;
+  margin: -80px calc(-50vw + 50%);
+  position: relative;
+  width: 100vw;
+  /* padding-top: 169px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ._height {
+  /* height: 500px; 
+} */
+
+.baby-girl {
+  background: url("/assets/baby girl on laptop.svg") no-repeat;
+  height: 150px;
+  width: 217px;
+  position: relative;
+  margin-top: 34px;
+  margin-left: -10px;
+}
+
+.vr-man {
+  /* width: 100%; */
+  margin-left: -60px;
+  margin-top: -27px;
+}
+
+.leaf-1 {
+  height: 12px;
+  position: absolute;
+  left: 20px;
+  top: -20px;
+}
+
+.leaf-2 {
+  position: absolute;
+  right: 79px;
+  bottom: 77px;
+  height: 12px;
+}
+
+.home-mobile-bound {
+  font-family: "Titillium";
+  font-size: 24px;
+  font-weight: bold;
+  font-weight: 900;
+  color: rgba(83, 100, 119, 1);
+  text-align: left;
+  line-height: 30px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.home-mobile-text {
+  font-family: "TitilliumL";
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(132, 142, 154, 1);
+  text-align: left;
+  line-height: 20px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.home-tex-space {
+  top: -42px;
+  margin-left: 20px;
+}
+
+.home-mobile-first-button {
+  height: 38px;
+  width: 150px;
+  background-color: rgba(32, 165, 222, 1);
+  border-radius: 19px;
+  box-shadow: 0px 10px 20px 0px rgba(71, 194, 247, 0.36);
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  font-size: 12px;
+  align-items: center;
+  color: white;
+  font-family: "TitilliumLt";
+  border: none;
+  margin-top: -47px;
+  margin-left: 18px;
+}
+
+.home-mobile-first-button:focus {
+  outline: none;
+}
+
+.mobile-button-box {
+  height: 32px;
+  width: 32px;
+  background-color: rgba(71, 194, 247, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  position: relative;
+  left: 20px;
+}
+
+.mobile-button-box img {
+  height: 13px;
+  width: 17px;
+}
+
+.mobile-globe {
+  margin: 20px calc(-50vw + 50%);
+  width: 100vw;
+}
+
+.training {
+  color: rgba(71, 194, 247, 1);
+  font-family: "Titillium";
+  font-weight: bold;
+}
+
+.bootcamp {
+  color: rgba(132, 142, 154, 1);
+  font-family: "Titillium";
+  font-weight: bold;
+}
+
+.mobile-card {
+  height: 225px;
+  width: 246px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  box-shadow: 0px 20px 30px 0px rgba(32, 165, 222, 0.15);
+  margin: 0 auto;
+}
+
+.mobile-card-head {
+  height: 51px;
+  width: 100%;
+  background-color: rgba(240, 240, 240, 1);
+  border-radius: 8px 8px 0px 0px;
+  text-align: center;
+  font-family: "Titillium";
+  font-size: 14px;
+  font-weight: 900;
+  color: rgba(132, 142, 154, 1);
+  text-align: center;
+  line-height: 21px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-card-button {
+  height: 38px;
+  width: 125px;
+  background-color: rgba(32, 165, 222, 1);
+  border-radius: 19px;
+  box-shadow: 0px 10px 20px 0px rgba(71, 194, 247, 0.36);
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  font-size: 12px;
+  align-items: center;
+  color: white;
+  font-family: "TitilliumLt";
+  border: none;
+  margin: 0 auto;
+  outline: none;
+}
+
+.mobile-card-button:focus {
+  outline: none;
+}
+
+.mobile-card-button-box {
+  height: 32px;
+  width: 32px;
+  background-color: rgba(71, 194, 247, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  position: relative;
+  left: 13px;
+  top: 1px;
+}
+
+.mobile-card-button-box img {
+  height: 13px;
+  width: 17px;
+}
+
+.mobile-center {
+  text-align: center;
+}
+
+.mobile-portfolio-box {
+  height: 246px;
+  width: 246px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 99;
+}
+
+.mobile-portfolio-box:hover .mobile-portfolio-hover {
+  width: 100%;
+  height: 100%;
+  background: rgba(71, 194, 247, 0.78);
+  display: block;
+  position: absolute;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.mobile-portfolio-hover {
+  display: none;
+}
+
+.mobile-portfolio-hover h1 {
+  font-family: "Titillium";
+  font-size: 18px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 27px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  text-transform: uppercase;
+  padding: 30px 20px 0px;
+}
+
+.mobile-portfolio-hover ul {
+  display: flex;
+  font-size: 10px;
+  font-family: "Titillium";
+  font-size: 10px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  /* justify-content: center; */
+}
+
+.mobile-portfolio-hover li {
+  margin: 0 5px;
+}
+
+.mobile-portfolio-hover button {
+  height: 38px;
+  width: 199px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 19px;
+  margin-top: 30px;
+  margin: 30px auto 0;
+  background: transparent;
+  text-align: center;
+  padding-left: 50px;
+}
+
+.mobile-portfolio-hover .mobile-button-box {
+  background: rgba(255, 255, 255, 1);
+  margin-top: 1px;
+  left: 24px;
+}
+
+.mobile-portfolio-img {
+  height: 246px;
+  width: 246px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.back-cover {
+  top: -448px;
+  right: -206px;
+  position: relative;
+}
+
+.mob-text {
+  margin-left: 20px;
+}
+
+.mobile-client-view {
+  /* max-width: 249px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mobile-client-view img:nth-child(odd),
+.mobile-client-view img:nth-child(even) {
+  height: 24px;
+  width: 114px;
+  opacity: 0.2;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.text-hap {
+  max-width: 200px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mobile-all-blog {
+  display: grid;
+  overflow: scroll;
+  width: 100vw;
+  height: 350px;
+  padding-top: 30px;
+  grid-template-columns: repeat(50, 1fr);
+  grid-gap: 30px;
+  cursor: pointer;
+}
+
+.mobile-happening-card {
+  width: 225px;
+
+  border-radius: 8px 8px 8px 8px;
+}
+
+.mobile-happening-img {
+  width: 100%;
+}
+
+.mobile-happening-display {
+  background: white;
+  height: 107px;
+  width: 100%;
+  padding-top: 20px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.mobile-happening-display h3 {
+  font-family: "TitilliumLt";
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(83, 100, 119, 1);
+  text-align: left;
+  line-height: 20px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.mobile-poster-details {
+  display: flex;
+}
+
+.mobile-poster-avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+
+.mobile-poster-name {
+  font-family: "Titillium";
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(132, 142, 154, 1);
+  margin-left: 15px;
+}
+
+.mobile-post-date {
+  font-family: "Titillium";
+  font-size: 0.5rem;
+  font-weight: 600;
+  color: rgba(196, 201, 207, 1);
+  margin-left: 15px;
+  margin-top: -20px;
+}
+
+.mobile-visit-blog {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.mobile-visit-blog button {
+  height: 38px;
+  width: 144px;
+  background: transparent;
+  box-shadow: none;
+  border: 1px solid rgba(32, 165, 222, 1);
+  color: rgba(32, 165, 222, 1);
+}
+
+.mobile-visit-blog .mobile-button-box {
+  left: 18px;
+  margin-top: 1px;
+}
+
+.home-mobile-foot {
+  background: url("/assets/footer clipped mobie.svg") no-repeat;
+  height: 440px;
+  background-size: cover;
+  padding-top: 215px;
+}
+
+.mobile-campaign-brief {
+  font-family: "TitilliumL";
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: rgba(132, 142, 154, 1);
+  text-align: left;
+  line-height: 2rem;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.mobile-input {
+  position: relative;
+  height: 38px;
+  width: 284px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 19px;
+  outline: none;
+  border: none;
+  font-family: "TitilliumLt";
+  padding-left: 20px;
+  margin-top: 10px;
+  padding-right: 60px;
+  color: rgba(132, 142, 154, 1);
+  outline: none;
+}
+
+input::placeholder {
+  color: rgba(132, 142, 154, 0.21);
+  opacity: 1;
+}
+
+.mobile-see-more {
+  position: relative;
+  height: 38px;
+  width: 110px;
+  background-color: rgba(32, 165, 222, 1);
+  border-radius: 19px;
+  box-shadow: 0px 10px 20px 0px rgba(71, 194, 247, 0.36);
+  outline: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8rem;
+  border: none;
+  font-family: "Titillium";
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: -50px;
+  background-image: none;
+}
+
+.mobile-see-more:focus {
+  outline: none;
+}
+
+.mobile-arrow-head {
+  height: 16px;
+  position: relative;
+}
+
+.mobile-see-more-small {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: rgba(71, 194, 247, 1);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 6px;
+}
+
+.footer {
+  background-color: rgba(219, 236, 255, 1);
+  width: 100%;
+  position: relative;
+  padding: 40px 100px;
+}
+
+.footer-display {
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer h1 {
+  font-family: "Titillium";
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgba(125, 135, 147, 1);
+  margin-bottom: 11px;
+}
+
+.footer p {
+  font-family: "TitilliumLt";
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgba(125, 135, 147, 1);
+  line-height: 1;
+  text-decoration: none;
+}
+
+.footer a {
+  text-decoration: none !important;
+  color: transparent;
+}
+
+.icon-display {
+  display: flex;
+  align-items: flex-end;
+}
+
+.icon-display img {
+  height: 20px;
+  width: 20px;
+  margin: 0 10px;
+}
+
+hr {
+  position: relative;
+  top: 25px;
+  margin: 0 auto;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  top: 32px;
+  position: relative;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.subscribe button {
+  height: 38px;
+  width: 257px;
+  border: 1px solid rgba(32, 165, 222, 1);
+  border-radius: 19px;
+  font-size: 0.7rem;
+  font-family: "Titillium";
+  font-weight: bold;
+  color: rgba(32, 165, 222, 1);
+  text-align: left;
+  padding-left: 30px;
+  outline: none;
+  background: transparent;
+}
+
+.subscribe button:focus {
+  outline: none;
+}
+
+.subscribe div {
+  position: absolute;
+  right: 0.3%;
+  top: 2.5px;
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  background-color: rgba(71, 194, 247, 1);
+  cursor: pointer;
+}
+
+.see-more-2 {
+  width: 120px;
+  text-align: left;
+  top: -38px;
+  padding-left: 20px;
+  left: 279px;
+  font-family: "TitilliumLt";
+}
+
+.cloud-div {
+  position: absolute;
+  top: 77px;
+  z-index: 99;
+  left: 0;
+}
+
+.cloud-1 {
+  height: 20px;
+}
+
+.cloud-2 {
+  height: 32px;
+  left: 13px;
+  position: relative;
+  top: 30px;
+}
+
+.tab-img {
+  display: none;
+}
+
+.banPile {
+  display: none;
+}
+
+.digitalDesign,
+.mobile-card-sub-text {
+  display: none;
+}
+
+.mobile-card h2 {
+  display: none;
+}
+
+.see-project {
+  display: none
+}
+
+@media only screen and (min-width: 320px) {
+  ._p {
+    font-size: 0.6rem;
+  }
+
+  .menu {
+    height: 30px;
+  }
+
+  .codekago-logo {
+    height: 22px;
+  }
+
+  .mob-space {
+    position: relative;
+    top: -54px;
+  }
+
+  .footer-display {
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    padding: 40px 0;
+  }
+
+  .home-subscribe {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: unset;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+  }
+
+  .home-subscribe p {
+    text-align: left;
+  }
+
+  .home-subscribe button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .home-subscribe div {
+    position: relative;
+    right: 0;
+    top: 0;
+    left: 26px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .xyz {
+    margin-top: 17px;
+    /* margin-left: 2px; */
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .bg-head {
+    display: none;
+  }
+
+  .tab-reverse {
+    flex-direction: row-reverse;
+    /* align-items: center; */
+  }
+
+  .tab-img {
+    display: block;
+    position: relative;
+  }
+
+  .img-illustrate {
+    margin-left: calc(100% - 660px);
+    height: 469px;
+    width: 800px;
+    margin-top: calc(10% - 82px);
+  }
+
+  .img-illustrate-2 {
+    display: none;
+  }
+
+  .tab-write {
+    margin-top: 89px;
+  }
+
+  .zyx {
+    margin-top: -382px;
+    margin-left: -44px;
+  }
+
+  .leaf-3 {
+    position: absolute;
+    height: 12px;
+    top: 98px;
+  }
+
+  .cloud-4 {
+    height: 14px;
+  }
+
+  .cloud-3 {
+    height: 20px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -56px;
+  }
+
+  .cloud-5 {
+    height: 27px;
+    position: absolute;
+    margin-top: 20px;
+  }
+
+  .cloud-6 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -61px;
+    height: 19px;
+  }
+
+  .mobile-globe {
+    width: 77vw;
+  }
+
+  .mobile-card {
+    height: 267px;
+    width: 154px;
+  }
+
+  .banPile {
+    display: block;
+    width: 82vw;
+    margin-left: -273px;
+  }
+
+  .mobile-portfolio-img {
+    height: 186px;
+    width: 165px;
+  }
+
+  .mobile-portfolio-box {
+    height: 186px;
+    width: 165px;
+  }
+
+  .mobile-portfolio-hover .tab-text {
+    font-size: 15px;
+  }
+
+  .mobile-portfolio-hover ul {
+    display: block;
+  }
+
+  .mobile-portfolio-hover button {
+    height: 35px;
+    width: 144px;
+    padding-left: unset;
+  }
+
+  .mobile-button-box {
+    height: 29px;
+    width: 28px;
+  }
+
+  .home-mobile-foot {
+    height: 460px;
+    padding-top: 247px;
+  }
+
+  .home-mobile-bound {
+    margin-top: 40px;
+  }
+
+  .mobile-client-view {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .home-mobile-foot {
+    background: url("/assets/footer 2 clipped.svg") no-repeat;
+    background-size: cover;
+  }
+
+  .home-mobile-bound {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .home-subscribe {
+    flex-wrap: wrap;
+    flex-direction: unset;
+    align-items: center;
+  }
+
+  .mobile-card {
+    height: 253px;
+    width: 196px;
+  }
+
+  .home-mobile-text {
+    font-size: 13px;
+  }
+
+  .zyx {
+    margin-top: -382px;
+    margin-left: 27px;
+  }
+
+  .text-hap {
+    max-width: 400px;
+    right: 0;
+  }
+
+  .mobile-portfolio-img {
+    height: 220px;
+    width: unset;
+  }
+
+  .mobile-portfolio-box {
+    height: 220px;
+    width: 220px;
+  }
+
+  .row-img {
+    align-items: center;
+  }
+
+  .mobile-portfolio-hover .tab-text {
+    font-size: 18px;
+  }
+
+  .mobile-portfolio-hover ul {
+    display: flex;
+    margin-left: -14px;
+  }
+
+  .mobile-portfolio-hover button {
+    height: 37px;
+    width: 154px;
+    padding-left: unset;
+  }
+
+  .web-container-remove {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -80px;
+  }
+
+  .see-project {
+    /* position: absolute; */
+    /* left: 50px; */
+    height: 38px;
+    width: 220px;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+    background-color: white;
+    border-radius: 19px;
+    box-shadow: 0px 10px 20px 0px rgba(71, 194, 247, 0.36);
+    outline: none;
+    text-transform: uppercase;
+    color: rgba(32, 165, 222, 1);
+    font-size: .7rem;
+    border: 1px solid rgba(32, 165, 222, 1);
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-family: 'Titillium';
+    font-weight: bold;
+    display: block;
+  }
+
+  .see-project:focus {
+    outline: none;
+  }
+
+  .see-more-smalled {
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    background-color: rgba(71, 194, 247, 1);
+    cursor: pointer;
+    margin-top: -25px;
+    position: relative;
+    left: 84%;
+  }
+
+  .see-more-smalled .arrow-head {
+    margin-left: 6px;
+    margin-top: 8px;
+    height: 16px;
+    position: relative;
+  }
+
+  /* .mobile-client-view {
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: right;
+    animation-timing-function: unset;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: nowrap;
+  } */
+
+  @-moz-keyframes move {
+    0% {
+      margin-left: 0px;
+    }
+
+    100% {
+      margin-left: -1000px;
+    }
+  }
+
+  @keyframes move {
+    0% {
+      margin-left: 0px;
+    }
+
+
+    100% {
+      margin-left: -1000px;
+    }
+
+    70% {
+      margin-left: -600px;
+    }
+  }
+
+  .text-hap {
+    margin-left: 300px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mobile-card-sub-text {
+    display: block;
+  }
+
+  .mobile-portfolio-img {
+    height: 246px;
+    width: unset;
+  }
+
+  .baby-girl {
+    width: 277px;
+  }
+
+  .vr-man {
+    height: 400px;
+  }
+
+  .img-illustrate {
+    margin-left: calc(100% - 751px);
+    height: 100%;
+    width: 771px;
+    margin-top: calc(10% - 133px);
+    max-width: 5017px;
+  }
+
+  .baby-girl {
+    /* margin-top: -206px; */
+    margin-top: -177px;
+    margin-left: 70px;
+  }
+
+  .vr-man {
+    height: 400px;
+    position: relative;
+    /* top: -80px;
+    left: -80px; */
+    top: -95px;
+    left: -70px;
+  }
+
+  .mobile-globe {
+    height: 750px;
+    margin: 20px calc(-45vw + 70%);
+  }
+
+  .home-mobile-bound {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  /* .home-mobile-text {
+    /* font-size: 1rem; */
+  /* } */
+
+  .digitalDesign {
+    display: block;
+    height: 60px;
+    margin: 5px auto 10px;
+  }
+
+  .mobile-card-sub-text {
+    text-align: center;
+    font-family: "Titillium";
+    font-size: 18px;
+    font-weight: 900;
+    color: rgba(132, 142, 154, 1);
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .mobile-card .mobile-card-head {
+    display: none;
+  }
+
+  .mobile-card .container {
+    display: none;
+  }
+
+  .mobile-card {
+    height: 154px;
+    width: 154px;
+    padding-top: 20px;
+  }
+
+  .mobile-card button {
+    display: none;
+  }
+
+  .grid-display {
+    margin-top: 50px;
+  }
+
+  .grid-display .col-lg-3:nth-child(even) {
+    margin-top: 50px;
+  }
+
+  .bold-text {
+    font-family: "TitilliumL";
+    font-size: 16px;
+    font-weight: 800;
+    color: rgba(132, 142, 154, 1);
+    line-height: 25px;
+  }
+
+  .mobile-card:hover .mobile-card-head {
+    display: flex;
+  }
+
+  .mobile-card:hover {
+    height: 260px;
+    width: 180px;
+    transition: ease-out 1s;
+    padding-top: 0px;
+    margin-left: 10px;
+  }
+
+  .mobile-card:hover button {
+    display: flex;
+  }
+
+  .mobile-card:hover .container {
+    display: block;
+  }
+
+  .mobile-card:hover .mobile-card-sub-text {
+    display: none;
+  }
+
+  .mobile-card:hover .digitalDesign {
+    display: none;
+  }
+
+  .mobile-card h2 {
+    font-size: 9rem;
+    margin-left: 8px;
+    margin-top: 10px;
+    font-family: "titillium";
+    font-weight: bolder;
+    display: none;
+    color: whitesmoke;
+  }
+
+  .mobile-card:hover h2 {
+    display: block;
+  }
+
+  .mobile-portfolio-img {
+    height: 270px;
+    width: 261px;
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  .mobile-portfolio-box {
+    height: 270px;
+    width: 261px;
+    margin: unset;
+  }
+
+  .banPile {
+    width: 800px;
+  }
+
+  .tab-port-text {
+    text-align: center;
+  }
+
+  .web-big {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .mobile-client-view img:nth-child(odd),
+  .mobile-client-view img:nth-child(even) {
+    height: 27px;
+    width: 114px;
+  }
+
+  .text-hap {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .mobile-all-blog {
+    position: absolute;
+    height: 400px;
+    grid-gap: 70px;
+    margin-top: -47px;
+  }
+
+  .home-mobile-foot {
+    padding-top: 380px;
+    padding-bottom: 200px;
+  }
+
+  .mobile-all-blog .mobile-happening-card:nth-child(odd) {
+    margin-top: 60px;
+  }
+
+  .mobile-visit-blog {
+    display: none;
+  }
+
+  .mobile-portfolio-hover ul {
+    font-size: 12px;
+  }
+
+  .mobile-portfolio-hover .tab-text {
+    font-size: 19px;
+  }
+
+  .img-illustrate {
+    display: none;
+  }
+
+  .img-illustrate-2 {
+    left: 80%;
+    height: 1000px;
+    transform: translateX(-50%);
+    top: -89px;
+    margin-top: -150px;
+    /* height: 192vh; */
+    position: relative;
+    display: block;
+  }
+
+  .zyx {
+    position: relative;
+    top: -288px;
+    left: 30px;
+  }
+
+  .section-2-height {
+    margin-top: -300px;
+  }
+
+
+
+
+
+  /* mobile-card-sub-text digitalDesign */
+}

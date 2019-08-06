@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 67.5 65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbdff"/>
+      <stop offset="0.1" stop-color="#f5bfff"/>
+      <stop offset="0.26" stop-color="#dbc4ff"/>
+      <stop offset="0.47" stop-color="#b0ccff"/>
+      <stop offset="0.72" stop-color="#75d8ff"/>
+      <stop offset="0.99" stop-color="#2ae6ff"/>
+      <stop offset="1" stop-color="#29e6ff"/>
+    </linearGradient>
+  </defs>
+  <path id="digital_design" data-name="digital design" class="cls-1" d="M52.5,22.5h-25v5h-5V20h30V5H50v7.5A2.535,2.535,0,0,1,47.5,15H2.5a2.4,2.4,0,0,1-1.758-.742A2.4,2.4,0,0,1,0,12.5V2.5A2.4,2.4,0,0,1,.742.742,2.4,2.4,0,0,1,2.5,0h45a2.4,2.4,0,0,1,1.758.742A2.4,2.4,0,0,1,50,2.5h5v20ZM45,2.5H5V5H45ZM30,55a4.972,4.972,0,0,1-8.516,3.516A4.805,4.805,0,0,1,20,55V30H30Zm-5-3.516a2.47,2.47,0,0,0-1.758.7,2.367,2.367,0,0,0-.742,1.8,2.5,2.5,0,0,0,5,0,2.367,2.367,0,0,0-.742-1.8A2.47,2.47,0,0,0,25,51.484ZM67.5,65"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.84 15.258">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #58687b;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="forward_arrrow_active" data-name="forward arrrow active" transform="translate(-953.731 -3258.208)">
+    <path id="Path_377" data-name="Path 377" class="cls-1" d="M2723,4282.667h15.54" transform="translate(-1768.269 -1016.962)"/>
+    <path id="Path_378" data-name="Path 378" class="cls-2" d="M2742.959,4277.6l6.629,6.629-6.629,6.629" transform="translate(-1778.016 -1018.394)"/>
+  </g>
+</svg>

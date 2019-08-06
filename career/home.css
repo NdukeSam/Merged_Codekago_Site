@@ -1,0 +1,234 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-moz-scrollbar {
+  display: none;
+}
+
+::-ms-overflow-style {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  background-image: -webkit-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 253, 255, 1) 22%, rgba(240, 247, 255, 1) 100%);
+  background-image: -moz-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 253, 255, 1) 22%, rgba(240, 247, 255, 1) 100%);
+  background-image: -o-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 253, 255, 1) 22%, rgba(240, 247, 255, 1) 100%);
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 253, 255, 1) 22%, rgba(240, 247, 255, 1) 100%);
+  width: 100%;
+
+}
+
+.navbar-home {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.codekago-logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 2;
+}
+
+._p {
+  line-height: 18px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  text-transform: uppercase;
+  font-family: 'Titillium';
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgba(85, 86, 85, 1);
+}
+
+nav {
+  margin-bottom: 150px;
+}
+
+.menu {
+  height: 38px;
+  position: relative;
+  top: -15px;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: 'Titillium';
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgba(83, 100, 119, 1);
+  text-align: left;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+p {
+  font-family: 'TitilliumL';
+  font-size: .8rem;
+  font-weight: 300;
+  color: rgba(132, 142, 154, 1);
+  text-align: left;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+button {
+  height: 38px;
+  width: 180px;
+  border: 1px solid rgba(32, 165, 222, 1);
+  border-radius: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  font-family: 'TitilliumL';
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(32, 165, 222, 1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  padding-left: 30px;
+  margin-top: 40px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button div {
+  height: 32px;
+  width: 32px;
+  background-color: rgba(71, 194, 247, 1);
+  border-radius: 50px;
+  margin-right: -4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button div img {
+  height: 13px;
+  width: 17px;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  z-index: 99;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+}
+
+.footer img {
+  height: 15px;
+  width: 26px;
+}
+
+
+.footer p {
+  height: 12px;
+  width: 54px;
+  font-family: 'TitilliumLt';
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(132, 142, 154, 1);
+  width: 100%;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none !important;
+  color: none !important;
+}
+
+.join {
+  position: relative;
+}
+
+.join .img1 {
+  height: 40rem;
+  top: -530px;
+  position: relative;
+}
+
+.join .img2 {
+  height: 40rem;
+  right: 100px;
+  position: relative;
+  top: 30px;
+
+}
+
+.cover {
+  overflow: hidden;
+  height: 100vh;
+}
+
+@media only screen and (min-width:320px) {
+
+  .img1,
+  .img2 {
+    display: none
+  }
+
+  .footer {
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .img1 {
+    display: block;
+  }
+
+  .img2 {
+    display: none;
+  }
+
+  .footer {
+    left: 80px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .img1 {
+    display: block;
+  }
+
+  .join .img2 {
+    height: 40rem;
+    right: 177px;
+    position: absolute;
+    top: 30px;
+    display: block;
+
+  }
+}
